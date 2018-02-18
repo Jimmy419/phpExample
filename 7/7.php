@@ -24,6 +24,30 @@
 	<button type="submit">提交</button>
 </form>
 
+<form action="7.3.php" method="get">
+	<div>name</div>
+	<div><input type="text" name="name"></div>
+	<div>age</div>
+	<div><input type="number" name="age"></div>
+	<div>file</div>
+	<div><input type="file" name="file"></div>
+	<button type="submit">提交</button>
+</form>
 
+<form action="7.3.php" method="post" enctype="multipart/form-data">
+	<div>name</div>
+	<div><input type="text" name="name"></div>
+	<div>age</div>
+	<div><input type="number" name="age"></div>
+	<div>file</div>
+	<div><input type="file" name="file"></div>
+	<button type="submit">提交</button>
+</form>
+
+<form action="7.4.php" method="post" enctype="multipart/form-data">
+	<div>file</div>
+	<div><input type="file" name="file"></div>
+	<button type="submit">提交</button>
+</form>
 </body>
 </html>
