@@ -24,6 +24,7 @@
 	// print_r($strarr);
 	shuffle($strarr);
 	$str=join('',array_slice($strarr,0,4));
+	$_SESSION['idcode']=$str;
 
 	$file="fonts/msyh.ttf";
 	imagettftext($im,20,0,$x,$y,$black,$file,$str);
